@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HEAD></HEAD><HTML><BODY>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package mcp.project:  Contents">
+<param name="Local" value="00Index.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package mcp.project:  R objects">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="mcp.project-package">
+<param name="Local" value="mcp.project-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="adaptive.bh">
+<param name="Local" value="adaptive.bh.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="adaptive.st">
+<param name="Local" value="adaptive.st.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bh">
+<param name="Local" value="fdr.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bh.adjust">
+<param name="Local" value="bh.adjust.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bh.m0.estimate">
+<param name="Local" value="bh.m0.estimate.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="fdr">
+<param name="Local" value="fdr.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="mcp.project">
+<param name="Local" value="mcp.project-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="multiple.down">
+<param name="Local" value="multiple.down.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="multiple.down.adjust">
+<param name="Local" value="multiple.down.adjust.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="plot.fdr">
+<param name="Local" value="fdr.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="reject">
+<param name="Local" value="reject.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="solve.q">
+<param name="Local" value="solve.q.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="st.m0.estimate">
+<param name="Local" value="st.m0.estimate.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="summary.fdr">
+<param name="Local" value="fdr.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="two.stage">
+<param name="Local" value="two.stage.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="two.stage.adjust">
+<param name="Local" value="two.stage.adjust.html">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package mcp.project:  Titles">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Applies different False Discovery Rate controlling procedures ">
+<param name="Local" value="mcp.project-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Multiple hypothesis testing while controlling the False Discovery rate">
+<param name="Local" value="fdr.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="~~function to do ... ~~ ">
+<param name="Local" value="two.stage.adjust.html">
+</OBJECT>
+</UL>
+</UL>
+</BODY></HTML>

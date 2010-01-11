@@ -1,0 +1,95 @@
+<html><head><title>Applies different False Discovery Rate controlling procedures</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>mcp.project-package(mcp.project)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   mcp.project-package">
+<param name="keyword" value="R:   mcp.project">
+<param name="keyword" value=" Applies different False Discovery Rate controlling procedures">
+</object>
+
+
+<h2>Applies different False Discovery Rate controlling procedures</h2>
+
+
+<h3>Description</h3>
+
+<p>
+The package offers several <acronym><span class="acronym">FDR</span></acronym> controlling procedures. Given a p-value vector it will return the rejected hypothsis, the cutoff and the adjusted p-values.
+</p>
+
+
+<h3>Details</h3>
+
+<p>
+<table summary="Rd table">
+<tr>
+  <td align="left">Package: </td>  <td align="left"> mcp.project</td>
+</tr>
+<tr>
+  <td align="left"> Type: </td>  <td align="left"> Package</td>
+</tr>
+<tr>
+  <td align="left"> Version: </td>  <td align="left"> 1.0</td>
+</tr>
+<tr>
+  <td align="left"> Date: </td>  <td align="left"> 2008-09-03</td>
+</tr>
+<tr>
+  <td align="left"> License: </td>  <td align="left"> What license is it under?</td>
+</tr>
+<tr>
+  <td align="left"> LazyLoad: </td>  <td align="left"> yes</td>
+</tr>
+</table>
+<p>
+The main function in this package is <code>fdr</code> which test hypothsis using different <acronym><span class="acronym">FDR</span></acronym> controlling procedures. The output is an object of class <acronym><span class="acronym">FDR</span></acronym> which can be examined with the generic <code>plot</code> and <code>summary</code> functions.
+</p>
+
+
+<h3>Author(s)</h3>
+
+<p>
+Jonathan Rosenblatt
+</p>
+<p>
+Maintainer: Jonathan &lt;john.ros@gmail.com&gt;
+</p>
+
+
+<h3>References</h3>
+
+<p>
+<EM>Adaptive linear step-up procedures that control the false discovery rate.</EM> Y. Benjamini, A.M. Krieger, D. Yekutieli (Biometrika 2006)
+</p>
+
+
+<h3>See Also</h3>
+
+<p>
+<a href="http://www.math.tau.ac.il/~ybenja/fdr/index.htm">http://www.math.tau.ac.il/~ybenja/fdr/index.htm</a>
+<a href="http://strimmerlab.org/notes/fdr.html">http://strimmerlab.org/notes/fdr.html</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+#Generating test data
+test=runif(100)^3
+
+#Linear Step up
+bh.1=fdr(x=test,q=0.1,'BH')
+plot(bh.1)
+summary(bh.1)
+table(bh.1$Pvals[['adjusted.pvals']]&lt;=bh.1$q)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>mcp.project</em> version 0.8 <a href="00Index.html">Index]</a></div>
+
+</body></html>

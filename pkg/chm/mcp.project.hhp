@@ -1,0 +1,30 @@
+[OPTIONS]
+Auto Index=Yes
+Contents file=mcp.project.toc
+Compatibility=1.1 or later
+Compiled file=mcp.project.chm
+Default topic=00Index.html
+Display compile progress=No
+Full-text search=Yes
+Full text search stop list file=..\..\..\gnuwin32\help\R.stp
+Title=R Help for package mcp.project
+
+
+[FILES]
+00Index.html
+adaptive.bh.html
+adaptive.st.html
+bh.html
+bh.adjust.html
+bh.m0.estimate.html
+fdr.html
+mcp.project-package.html
+multiple.down.html
+multiple.down.adjust.html
+plot.fdr.html
+reject.html
+solve.q.html
+st.m0.estimate.html
+summary.fdr.html
+two.stage.html
+two.stage.adjust.html
